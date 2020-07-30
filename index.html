@@ -1,0 +1,52 @@
+
+<html>
+    <head>
+        <title>Youtube form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container{
+                width: 30%;
+                border: 1px solid black;
+                margin: auto;
+                padding: 20px;
+                font-size: 15px; 
+            }
+            #myform table tr td{
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>My Form</h1>
+            <form id="myform" action="channel" method="post">
+                <table>
+                    <tr>
+                        <td>Enter Your Name :</td>
+                        <td><input type="text" name="user_name" placeholder="Enter name here"></td>
+                    </tr>
+                     <tr>
+                        <td>Enter Your Password:</td>
+                        <td><input type="password" name="user_pass" placeholder="Enter pass here"></td>
+                    </tr>
+                     <tr>
+                         <td style="text-align: right">
+                     <input type="checkbox" value="checked" name="condition" />
+                         </td>
+                         <td><b>Agree With Terms & Condition</b></td>
+                     </tr>
+                     <tr>
+                         <td>
+                             
+                         </td>
+                         <td>
+                             <button type="submit">Register</button>
+                             <button type="reset">Reset</button>
+                         </td>
+                     </tr>
+                </table>
+            </form>
+        </div>
+        </body>
+</html>
